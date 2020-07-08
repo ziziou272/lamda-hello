@@ -5,7 +5,7 @@ phases:
       java: openjdk8
   build:
     commands:
-      - export BUCKET=pipeline-lambda-demo
+      - export BUCKET=aws-sam-cli-managed-default-samclisourcebucket-1dx28ud84hzuq
       - aws cloudformation package --template-file template.yaml --s3-bucket $BUCKET --output-template-file outputtemplate.yml
       - mvn install
 artifacts:

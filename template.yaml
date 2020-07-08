@@ -12,8 +12,8 @@ Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: ./HelloWorldFunction/src/main/java/
-      Handler: helloworld.App::handleRequest
+      CodeUri: ./HelloWorldFunction/src/main/java/helloworld/
+      Handler: App::handleRequest
       Runtime: java8
       MemorySize: 512
       Environment:

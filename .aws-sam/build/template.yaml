@@ -34,11 +34,11 @@ Outputs:
     Description: Hello World Lambda Function ARN
     Value:
       Fn::GetAtt:
-        - HelloWorldFunction
-        - Arn
+      - HelloWorldFunction
+      - Arn
   HelloWorldFunctionIamRole:
     Description: Implicit IAM Role created for Hello World function
     Value:
       Fn::GetAtt:
-        - HelloWorldFunctionRole
-        - Arn
+      - HelloWorldFunctionRole
+      - Arn

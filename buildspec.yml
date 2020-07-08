@@ -6,10 +6,9 @@ phases:
   build:
     commands:
       - export BUCKET=aws-sam-cli-managed-default-samclisourcebucket-pjrx39t7k26r
-      - aws cloudformation package --template-file template.yml --s3-bucket $BUCKET --output-template-file outputtemplate.yml
+      - aws cloudformation package --template-file template.yaml --s3-bucket $BUCKET --output-template-file outputtemplate.yml
       - mvn install
 artifacts:
   type: zip
   files:
-    - template.yml
-    - outputtemplate.yml
+    - template.yaml

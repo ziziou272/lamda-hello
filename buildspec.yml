@@ -9,4 +9,4 @@ phases:
       - sam build
   post_build:
     commands:
-      - aws s3 sync .aws-sam/build s3://new-create-pipeline-bucket
+      - aws s3 sync ./build s3://new-create-pipeline-bucket

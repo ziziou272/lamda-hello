@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad74bcf7-a96a-4c33-b163-36644f7d1a03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HelloWorldFunction/src/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ad74bcf7-a96a-4c33-b163-36644f7d1a03" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594160968818</updated>
       <workItem from="1594160982141" duration="11798000" />
-      <workItem from="1594268071008" duration="9652000" />
+      <workItem from="1594268071008" duration="10104000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1594162749817</created>
@@ -330,7 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594314059580</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add pom">
+      <created>1594314205653</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1594314205653</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add pom">
+      <created>1594314388031</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1594314388032</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +410,8 @@
     <MESSAGE value="update tempalte" />
     <MESSAGE value="Revert &quot;update tempalte&quot;&#10;&#10;This reverts commit cf095f01" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="add pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pom" />
   </component>
   <component name="WindowStateProjectService">
     <state x="340" y="167" key="#[Local]_HelloWorldFunction" timestamp="1594186851080">
@@ -406,11 +419,11 @@
     </state>
     <state x="340" y="167" key="#[Local]_HelloWorldFunction/0.0.1080.1920/1080.338.1920.1080@0.0.1080.1920" timestamp="1594186851080" />
     <state x="1685" y="432" key="#[Local]_HelloWorldFunction/0.0.1080.1920/1080.338.1920.1080@1080.338.1920.1080" timestamp="1594184875711" />
-    <state x="1579" y="528" key="CommitChangelistDialog2" timestamp="1594314059209">
+    <state x="1579" y="528" key="CommitChangelistDialog2" timestamp="1594314387366">
       <screen x="1080" y="338" width="1920" height="1080" />
     </state>
     <state x="48" y="536" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@0.0.1080.1920" timestamp="1594184353408" />
-    <state x="1579" y="528" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@1080.338.1920.1080" timestamp="1594314059209" />
+    <state x="1579" y="528" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@1080.338.1920.1080" timestamp="1594314387366" />
     <state x="1218" y="538" width="1720" height="880" key="DiffContextDialog" timestamp="1594283395654">
       <screen x="1080" y="338" width="1920" height="1080" />
     </state>

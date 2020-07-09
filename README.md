@@ -1,4 +1,4 @@
-# java-demo
+# java-pipeline-project
 
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
@@ -50,7 +50,7 @@ You can find your API Gateway Endpoint URL in the output values displayed after 
 Build your application with the `sam build` command.
 
 ```bash
-java-demo$ sam build
+java-pipeline-project$ sam build
 ```
 
 The SAM CLI installs dependencies defined in `HelloWorldFunction/pom.xml`, creates a deployment package, and saves it in the `.aws-sam/build` folder.
@@ -60,14 +60,14 @@ Test a single function by invoking it directly with a test event. An event is a 
 Run functions locally and invoke them with the `sam local invoke` command.
 
 ```bash
-java-demo$ sam local invoke HelloWorldFunction --event events/event.json
+java-pipeline-project$ sam local invoke HelloWorldFunction --event events/event.json
 ```
 
 The SAM CLI can also emulate your application's API. Use the `sam local start-api` to run the API locally on port 3000.
 
 ```bash
-java-demo$ sam local start-api
-java-demo$ curl http://localhost:3000/
+java-pipeline-project$ sam local start-api
+java-pipeline-project$ curl http://localhost:3000/
 ```
 
 The SAM CLI reads the application template to determine the API's routes and the functions that they invoke. The `Events` property on each function's definition includes the route and method for each path.
@@ -91,7 +91,7 @@ To simplify troubleshooting, SAM CLI has a command called `sam logs`. `sam logs`
 `NOTE`: This command works for all AWS Lambda functions; not just the ones you deploy using SAM.
 
 ```bash
-java-demo$ sam logs -n HelloWorldFunction --stack-name java-demo --tail
+java-pipeline-project$ sam logs -n HelloWorldFunction --stack-name java-pipeline-project --tail
 ```
 
 You can find more information and examples about filtering Lambda function logs in the [SAM CLI Documentation](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-logging.html).
@@ -101,7 +101,7 @@ You can find more information and examples about filtering Lambda function logs 
 Tests are defined in the `HelloWorldFunction/src/test` folder in this project.
 
 ```bash
-java-demo$ cd HelloWorldFunction
+java-pipeline-project$ cd HelloWorldFunction
 HelloWorldFunction$ mvn test
 ```
 
@@ -110,7 +110,7 @@ HelloWorldFunction$ mvn test
 To delete the sample application that you created, use the AWS CLI. Assuming you used your project name for the stack name, you can run the following:
 
 ```bash
-aws cloudformation delete-stack --stack-name java-demo
+aws cloudformation delete-stack --stack-name java-pipeline-project
 ```
 
 ## Resources
